@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */ 
+}
+
+:root {
+    /* Tema Escuro Moderno */
+    --primary-color: #CE1141;       /* Vermelho NBA para destaques */
+    --secondary-color: #17408B;     /* Azul NBA para textos e bordas */
+    --text-color: #000000;         /* Preto para textos, melhorando a legibilidade */
+    --bg-color: #f4f4f4;           /* Fundo principal claro e suave */
+    --card-bg-color: #ffffff;      /* Cor de fundo branca para os cards */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: var(--bg-color); /* Cor de fundo caso a imagem não carregue */
+    background-image: url('https://t3.ftcdn.net/jpg/12/30/24/60/360_F_1230246042_fSBNO7YHQnPOSJcLkgTTlIJqRUKQc3zy.jpg'); /* Imagem de uma quadra de basquete */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    /* Garante que o footer fique no final, mesmo com pouco conteúdo */
+    min-height: 100vh;
+}
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */ 
+    display: flex; /* Habilita o layout flexbox */ 
+    align-items: center; /* Alinha os itens verticalmente ao centro */ 
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */ 
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */ 
+    top: 0; /* Posição do topo quando sticky */ 
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */ 
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */ 
+    border-bottom: 1px solid var(--secondary-color); /* Adiciona uma borda inferior sutil */
+    gap: 1rem; /* Espaçamento entre os elementos flex */ 
+}
+
+header h1 {
+    font-size: 1.5rem; /* Tamanho da fonte */ 
+    margin: 0; /* Remove a margem padrão */ 
+    font-weight: 500; /* Peso da fonte (médio) */ 
+    white-space: nowrap; /* Impede a quebra de linha do texto */ 
+}
+
+.nba-logo {
+    height: 2.5rem; /* Ajusta a altura do logo */
+}
+
+div input {
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */ 
+    border-radius: 2rem; /* Bordas mais arredondadas para um visual moderno */
+    border: 1px solid var(--secondary-color); /* Define a borda */
+    background: var(--bg-color); /* Cor de fundo */ 
+    font-family: inherit; /* Herda a família da fonte do elemento pai */ 
+    font-size: 1.5rem; /* Tamanho da fonte */ 
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */ 
+    width: 30rem; /* Largura do input */ 
+    color: var(--text-color); /* Cor do texto digitado */
+    margin-right: .5rem; /* Margem à direita */ 
+}
+
+div input::placeholder {
+    font-size: 1.2rem; /* Tamanho da fonte do placeholder */ 
+    font-weight: 300; /* Peso da fonte do placeholder */ 
+    color: var(--secondary-color); /* Cor do texto do placeholder */
+}
+
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão */ 
+    border-color: var(--primary-color); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+#botao-busca {
+    padding: 1rem 2rem; /* Espaçamento interno */ 
+    border-radius: 1rem; /* Arredonda as bordas */ 
+    border: none; /* Remove a borda padrão */ 
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */ 
+    font-family: inherit; /* Herda a família da fonte */ 
+    font-weight: 500; /* Peso da fonte */ 
+    font-size: 1rem; /* Tamanho da fonte */ 
+    white-space: nowrap; /* Impede a quebra de linha do texto */ 
+    transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */ 
+    background-color: var(--primary-color); /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    border: 1px solid var(--primary-color); /* Adiciona uma borda */
+}
+
+#botao-busca:hover {
+    background-color: transparent; /* Fundo transparente ao passar o mouse */
+    color: var(--primary-color); /* Muda a cor do texto ao passar o mouse */
+    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */ 
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */ 
+}
+
+main {
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 0 1rem; /* Adiciona um respiro nas laterais */
+}
+
+.card-conteiner {
+    display: grid;
+    /* Cria colunas flexíveis que se ajustam ao tamanho da tela */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem; /* Espaçamento entre os cards */
+}
+
+article {
+    background: var(--card-bg-color); /* Cor de fundo para o card */
+}
+
+/* 1. Define a animação de fade-in e um leve movimento para cima */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Começa 10px abaixo da posição final */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+article {
+    padding: 1.5rem; /* Espaçamento interno */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    border: 1px solid var(--secondary-color); /* Borda sutil */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave */
+    animation: fadeIn 0.5s ease-out forwards; /* 2. Aplica a animação ao card */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
+article h2 {
+    margin-top: 0; /* Remove margem do topo do título */
+    color: var(--secondary-color); /* Cor de destaque para o título */
+}
+
+article .card-imagem {
+    width: 100px; /* Define uma largura fixa para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem não tenha espaços extras */
+    margin: 1rem auto; /* Centraliza a imagem e adiciona margem */
+    object-fit: contain; /* Garante que a imagem caiba sem distorcer */
+}
+
+article a {
+    color: var(--secondary-color); /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 500; /* Deixa a fonte do link mais forte */
+}
+
+footer {
+    background-color: var(--bg-color); /* Cor de fundo do rodapé */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    border-top: 1px solid var(--secondary-color); /* Adiciona uma borda superior sutil */
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+    margin-top: 2rem; /* Adiciona espaço acima do rodapé */
+    background-color: #1a1a1a; /* Cor mais escura para o rodapé */
+    color: #f4f4f4;
+}

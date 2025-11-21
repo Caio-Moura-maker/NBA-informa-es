@@ -1,0 +1,328 @@
+[
+  {
+    "nome": "Los Angeles Lakers",
+    "descricao": "Uma das franquias mais icônicas da história, conhecida pela cultura 'Showtime' e por deter o recorde de 17 títulos da NBA (empatado).",
+    "data_criacao": "1947",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+    "link": "https://www.instagram.com/lakers",
+    "tags": [
+      "17 Vezes Campeão da NBA",
+      "Era Showtime",
+      "Maior Rivalidade (Celtics)",
+      "Tradição de Estrelas",
+      "Transferido de Minneapolis"
+    ]
+  },
+  {
+    "nome": "Boston Celtics",
+    "descricao": "A franquia com o maior número de campeonatos da NBA (17, empatado) e lar de lendas como Bill Russell e Larry Bird.",
+    "data_criacao": "1946",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+    "link": "https://www.instagram.com/celtics",
+    "tags": [
+      "17 Vezes Campeão da NBA",
+      "Fundador da BAA",
+      "Dinastia Original (Anos 60)",
+      "Maior Rivalidade (Lakers)"
+    ]
+  },
+  {
+    "nome": "Chicago Bulls",
+    "descricao": "Famoso mundialmente pela dinastia dos anos 90, liderada por Michael Jordan, que conquistou seis títulos da NBA.",
+    "data_criacao": "1966",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+    "link": "https://www.instagram.com/chicagobulls",
+    "tags": [
+      "Seis Títulos da NBA",
+      "Era Jordan",
+      "Franquia de Expansão",
+      "Popularidade Global"
+    ]
+  },
+  {
+    "nome": "Golden State Warriors",
+    "descricao": "Franquia que definiu a era moderna do basquete com base em arremessos de três pontos, conquistando quatro títulos na década de 2010.",
+    "data_criacao": "1946",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+    "link": "https://www.instagram.com/warriors",
+    "tags": [
+      "6 Vezes Campeão da NBA",
+      "Dinastia Recente",
+      "Recorde de 73 Vitórias",
+      "Fundador da BAA"
+    ]
+  },
+  {
+    "nome": "San Antonio Spurs",
+    "descricao": "Conhecida por sua cultura estável, liderança de Gregg Popovich e cinco campeonatos conquistados sob a tutela de Tim Duncan.",
+    "data_criacao": "1967",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+    "link": "https://www.instagram.com/spurs",
+    "tags": [
+      "5 Vezes Campeão da NBA",
+      "Dinastia Silenciosa",
+      "Vencedores da ABA",
+      "Cultura de Equipe"
+    ]
+  },
+  {
+    "nome": "Miami Heat",
+    "descricao": "Conhecida por sua 'Cultura Heat' de trabalho árduo, Pat Riley e três títulos da NBA, muitas vezes alcançados como azarões.",
+    "data_criacao": "1988",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+    "link": "https://www.instagram.com/miamiheat",
+    "tags": [
+      "3 Vezes Campeão da NBA",
+      "Cultura Heat",
+      "Time de Expansão (1988)",
+      "Pat Riley"
+    ]
+  },
+  {
+    "nome": "Detroit Pistons",
+    "descricao": "Famosa pelos 'Bad Boys' do final dos anos 80 e início dos 90, e pelo título surpreendente de 2004.",
+    "data_criacao": "1941",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+    "link": "https://www.instagram.com/detroitpistons",
+    "tags": [
+      "3 Vezes Campeão da NBA",
+      "Bad Boys",
+      "Originalmente de Fort Wayne",
+      "Força Defensiva"
+    ]
+  },
+  {
+    "nome": "New York Knicks",
+    "descricao": "Uma das franquias originais da NBA, sediada no Madison Square Garden, mas com uma longa seca de campeonatos desde 1973.",
+    "data_criacao": "1946",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+    "link": "https://www.instagram.com/nyknicks",
+    "tags": [
+      "2 Vezes Campeão da NBA",
+      "Time Original da BAA",
+      "Madison Square Garden",
+      "Mercado de Grande Mídia"
+    ]
+  },
+  {
+    "nome": "Houston Rockets",
+    "descricao": "Franquia bicampeã (1994, 1995) liderada por Hakeem Olajuwon. Conhecida pela era 'Mão Dupla' e por ser transferida de San Diego.",
+    "data_criacao": "1967",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+    "link": "https://www.instagram.com/houstonrockets",
+    "tags": [
+      "2 Vezes Campeão da NBA",
+      "Era Olajuwon",
+      "Transferido de San Diego",
+      "Time do Texas"
+    ]
+  },
+  {
+    "nome": "Philadelphia 76ers",
+    "descricao": "Fundada como Syracuse Nationals e transferida para a Filadélfia. Possui uma rica história de estrelas e o slogan 'Trust the Process' recente.",
+    "data_criacao": "1946",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+    "link": "https://www.instagram.com/sixers",
+    "tags": [
+      "3 Vezes Campeão da NBA",
+      "Originalmente Syracuse Nationals",
+      "Trust the Process",
+      "Lendas (Dr. J, Iverson)"
+    ]
+  },
+  {
+    "nome": "Milwaukee Bucks",
+    "descricao": "Campeões em 1971 (com Kareem Abdul-Jabbar) e mais recentemente em 2021 (com Giannis Antetokounmpo).",
+    "data_criacao": "1968",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+    "link": "https://www.instagram.com/bucks",
+    "tags": [
+      "2 Vezes Campeão da NBA",
+      "Giannis Antetokounmpo",
+      "Franquia do Centro-Oeste",
+      "Defesa Forte"
+    ]
+  },
+  {
+    "nome": "Washington Wizards",
+    "descricao": "Originalmente Chicago Packers, mudou-se para Baltimore e depois Washington. Ganhou seu único título em 1978 como Washington Bullets.",
+    "data_criacao": "1961",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+    "link": "https://www.instagram.com/washwizards",
+    "tags": [
+      "1 Vez Campeão da NBA (1978)",
+      "Múltiplas Mudanças de Nome",
+      "Capital Federal",
+      "Antigos Bullets"
+    ]
+  },
+  {
+    "nome": "Denver Nuggets",
+    "descricao": "Vencedores do campeonato de 2023, marcando o primeiro título da franquia após décadas de sucesso na altitude.",
+    "data_criacao": "1967",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+    "link": "https://www.instagram.com/nuggets",
+    "tags": [
+      "1 Vez Campeão da NBA (2023)",
+      "Vencedores da ABA",
+      "Efeito Altitude",
+      "Primeiro Título"
+    ]
+  },
+  {
+    "nome": "Cleveland Cavaliers",
+    "descricao": "Conhecidos principalmente pelas três passagens de LeBron James, culminando no único título da franquia em 2016.",
+    "data_criacao": "1970",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+    "link": "https://www.instagram.com/cavs",
+    "tags": [
+      "1 Vez Campeão da NBA (2016)",
+      "Era LeBron James",
+      "Virada Histórica nas Finais",
+      "Franquia de Expansão"
+    ]
+  },
+  {
+    "nome": "Dallas Mavericks",
+    "descricao": "Conquistaram seu único título em 2011, liderados pelo lendário Dirk Nowitzki, e são uma potência ofensiva no basquete moderno.",
+    "data_criacao": "1980",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+    "link": "https://www.instagram.com/dallasmavs",
+    "tags": [
+      "1 Vez Campeão da NBA (2011)",
+      "Dirk Nowitzki",
+      "Proprietário Mark Cuban",
+      "Franquia de Expansão"
+    ]
+  },
+  {
+    "nome": "Portland Trail Blazers",
+    "descricao": "Ganharam o título em 1977. São conhecidos por sua base de fãs apaixonada e por jogar em uma das cidades mais dedicadas ao basquete.",
+    "data_criacao": "1970",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+    "link": "https://www.instagram.com/trailblazers",
+    "tags": [
+      "1 Vez Campeão da NBA (1977)",
+      "Rip City",
+      "Franquia do Noroeste",
+      "Sede em Portland"
+    ]
+  },
+  {
+    "nome": "Toronto Raptors",
+    "descricao": "A única equipe da NBA localizada fora dos Estados Unidos, eles conquistaram seu primeiro e único título em 2019.",
+    "data_criacao": "1995",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+    "link": "https://www.instagram.com/raptors",
+    "tags": [
+      "1 Vez Campeão da NBA (2019)",
+      "Único Time Canadense",
+      "Vince Carter",
+      "Time de Expansão"
+    ]
+  },
+  {
+    "nome": "Phoenix Suns",
+    "descricao": "Franquia com grande sucesso na temporada regular, mas que ainda busca seu primeiro campeonato da NBA, tendo chegado às Finais três vezes.",
+    "data_criacao": "1968",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+    "link": "https://www.instagram.com/suns",
+    "tags": [
+      "Nunca Venceu o Título",
+      "Franquia de Expansão",
+      "Cores Vivas",
+      "Três Finais da NBA"
+    ]
+  },
+  {
+    "nome": "Utah Jazz",
+    "descricao": "Originalmente de Nova Orleans, se estabeleceu em Utah. Famoso pela era de Karl Malone e John Stockton, sem nunca ter conquistado um título.",
+    "data_criacao": "1974",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+    "link": "https://www.instagram.com/utahjazz",
+    "tags": [
+      "Nunca Venceu o Título",
+      "Transferido de New Orleans",
+      "Era Stockton e Malone",
+      "Aproveitamento da Altitude"
+    ]
+  },
+  {
+    "nome": "Orlando Magic",
+    "descricao": "Franquia de expansão que alcançou as Finais da NBA duas vezes (com Shaq e Dwight Howard), mas ainda busca seu primeiro anel.",
+    "data_criacao": "1989",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+    "link": "https://www.instagram.com/orlandomagic",
+    "tags": [
+      "Nunca Venceu o Título",
+      "Times de Expansão",
+      "Era Shaq e Penny",
+      "Finais em 2009"
+    ]
+  },
+  {
+    "nome": "Sacramento Kings",
+    "descricao": "A franquia contínua mais antiga da NBA, com muitas mudanças de localização. Conhecida pela 'Seca' de playoffs prolongada, encerrada recentemente.",
+    "data_criacao": "1923",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+    "link": "https://www.instagram.com/sacramentokings",
+    "tags": [
+      "1 Título (como Royals)",
+      "Franquia Mais Antiga",
+      "Múltiplas Mudanças",
+      "Seca de Playoffs"
+    ]
+  },
+  {
+    "nome": "Brooklyn Nets",
+    "descricao": "Originários da ABA e transferidos para Nova York. Conhecidos por se mudarem de New Jersey para o moderno Brooklyn em 2012.",
+    "data_criacao": "1967",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+    "link": "https://www.instagram.com/brooklynnets",
+    "tags": [
+      "Vencedores da ABA",
+      "Transferido para Brooklyn",
+      "Franquia Moderna",
+      "Sucesso no Leste"
+    ]
+  },
+  {
+    "nome": "Oklahoma City Thunder",
+    "descricao": "Sucessora do Seattle SuperSonics (campeão em 1979). Estabeleceu-se em OKC em 2008 e é conhecida por sua excelência em desenvolvimento de talentos jovens.",
+    "data_criacao": "1967",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+    "link": "https://www.instagram.com/okcthunder",
+    "tags": [
+      "Sucessor dos Sonics",
+      "Foco em Jovens Talentos",
+      "MVP's (Durant, Westbrook)",
+      "Cultura de Draft"
+    ]
+  },
+  {
+    "nome": "Atlanta Hawks",
+    "descricao": "Uma das franquias mais antigas da liga, originalmente em Buffalo e depois em St. Louis (onde ganhou seu único título), antes de se estabelecer em Atlanta.",
+    "data_criacao": "1946",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+    "link": "https://www.instagram.com/atlhawks",
+    "tags": [
+      "1 Vez Campeão (St. Louis)",
+      "Múltiplas Transferências",
+      "Franquia Original",
+      "Sede em Atlanta"
+    ]
+  },
+  {
+    "nome": "Los Angeles Clippers",
+    "descricao": "Historicamente a 'segunda equipe' de L.A., têm buscado a excelência desde a mudança de propriedade. Conhecidos pelo apelido 'Lob City'.",
+    "data_criacao": "1970",
+    "imagem": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+    "link": "https://www.instagram.com/laclippers",
+    "tags": [
+      "Nunca Venceu o Título",
+      "Lob City",
+      "Originalmente Buffalo Braves",
+      "Mudança para Novo Ginásio"
+    ]
+  }
+]
