@@ -6,7 +6,7 @@ Funcionalidades Principais: Carregamento de Dados Dinâmicos: Ao carregar a pág
 
 Exibição em Cartões: Cada franquia da NBA é apresentada em um “cartão” individual. Cada cartão contém:
 
-O logotipo faz tempo. O nome da franquia. O ano de sua fundação. Uma breve descrição. Tags com curiosidades ou marcos importantes (ex: "17 Vezes Campeão da NBA", "Era Jordan"). Um link "Saiba mais" que redireciona para a página oficial do time. Busca em Tempo Real: A página possui um campo de busca que permite ao usuário filtrar os tempos exibidos. A busca é acionada ao clicar no botão "Buscar" ou ao pressionar a tecla "Enter". O filtro é aplicado sobre o nome das franquias, e a galeria é atualizada instantaneamente para mostrar apenas os resultados correspondentes.
+O logotipo, o nome da franquia,o ano de sua fundação e uma breve descrição. Tags com curiosidades ou marcos importantes (ex: "17 Vezes Campeão da NBA", "Era Jordan"). Um link "Saiba mais" que redireciona para a página oficial do time. Busca em Tempo Real: A página possui um campo de busca que permite ao usuário filtrar os tempos exibidos. A busca é acionada ao clicar no botão "Buscar" ou ao pressionar a tecla "Enter". O filtro é aplicado sobre o nome das franquias, e a galeria é atualizada instantaneamente para mostrar apenas os resultados correspondentes.
 
 Design Responsivo e Moderno:
 
